@@ -50,3 +50,4 @@ def lambda_handler(event, context):
             'statusCode': 200,
             'body': json.dumps(data+'. Your astrological sign is '+star[int(month)]+', luckey number is '+str(c)+'. ')
         }
+
