@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     name1= event['birthday']
     name2= event['school']
     data='Hello '+name2+' student, ' + name
-    day = [20,19,21,20,21,22,23,23,23,24,23,22] #按日期順序把每个月的分隔星座的日期列出来，從1月开始
+    day = [20,19,21,20,21,22,23,23,23,24,23,22] #按日期順序把每个月的分隔星座的日期列出来，從1月
     star = ['Capricorn','Aquarius','Pisces','Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius']
     birthday=name1.split("/")
     month=str(birthday[0])
